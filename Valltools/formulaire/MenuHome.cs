@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Valltools
 {
-    public partial class MainForm : Form
+    public partial class MenuHome : Form
     {
-        public MainForm()
+        public MenuHome()
         {
             InitializeComponent();
         }
