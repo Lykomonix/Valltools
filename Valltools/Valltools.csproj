@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="formulaire\MenuAgent.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulaire\MenuAgent.Designer.cs">
+      <DependentUpon>MenuAgent.cs</DependentUpon>
+    </Compile>
     <Compile Include="formulaire\MenuHome.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="formulaire\MenuAgent.resx">
+      <DependentUpon>MenuAgent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="formulaire\MenuHome.resx">
       <DependentUpon>MenuHome.cs</DependentUpon>
     </EmbeddedResource>

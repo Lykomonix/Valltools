@@ -22,12 +22,12 @@ namespace Valltools.formulaire
             MessageBox.Show("WIP : Ranked Map Pool");
         }
 
-        private void btnAll_Click(object sender, EventArgs e)
+        private void btnAllMap_Click(object sender, EventArgs e)
         {
             MessageBox.Show("WIP : All Map Pool");
         }
 
-        private void btnFilter_Click(object sender, EventArgs e)
+        private void btnFilteredMap_Click(object sender, EventArgs e)
         {
             MessageBox.Show("WIP : Filtered Map Pool");
         }
