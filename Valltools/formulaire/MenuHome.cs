@@ -16,5 +16,15 @@ namespace Valltools
         {
             InitializeComponent();
         }
+
+        private void btnMap_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Map");
+        }
+
+        private void btnAgent_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Agent");
+        }
     }
 }

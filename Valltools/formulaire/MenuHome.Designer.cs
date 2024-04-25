@@ -83,6 +83,7 @@
             this.btnMap.TabIndex = 0;
             this.btnMap.Text = "Map";
             this.btnMap.UseVisualStyleBackColor = true;
+            this.btnMap.Click += new System.EventHandler(this.btnMap_Click);
             // 
             // btnAgent
             // 
@@ -94,6 +95,7 @@
             this.btnAgent.TabIndex = 1;
             this.btnAgent.Text = "Agent";
             this.btnAgent.UseVisualStyleBackColor = true;
+            this.btnAgent.Click += new System.EventHandler(this.btnAgent_Click);
             // 
             // MenuHome
             // 
