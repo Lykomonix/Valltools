@@ -12,6 +12,7 @@ namespace Valltools.formulaire
 {
     public partial class MenuMap : Form
     {
+        private string[] ListRandom;
         public MenuMap(string url)
         {
             InitializeComponent();
@@ -20,13 +21,15 @@ namespace Valltools.formulaire
 
         private void btnRanked_Click(object sender, EventArgs e)
         {
-            var menuRandom = new MenuRandom(Text + "/RankedMapPool");
+            ListRandom = new string[] { "Ascent", "Bind", "Breeze","Icebox", "Lotus", "Split", "Sunset" };
+            var menuRandom = new MenuRandom(Text + "/RankedMapPool", ListRandom);
             menuRandom.ShowDialog();
         }
 
         private void btnAllMap_Click(object sender, EventArgs e)
         {
-            var menuRandom = new MenuRandom(Text + "/AllMapPool");
+            ListRandom = new string[] { "Ascent", "Bind", "Breeze", "Fracture", "Haven", "Icebox", "Lotus", "Pearl", "Split", "Sunset" };
+            var menuRandom = new MenuRandom(Text + "/AllMapPool", ListRandom);
             menuRandom.ShowDialog();
         }
 
