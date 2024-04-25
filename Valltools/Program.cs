@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Valltools.formulaire;
 
 namespace Valltools
 {
@@ -16,7 +17,8 @@ namespace Valltools
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuHome());
+            // Application.Run(new MenuHome());
+            Application.Run(new MenuMap());
         }
     }
 }
