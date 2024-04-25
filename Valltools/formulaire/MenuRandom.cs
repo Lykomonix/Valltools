@@ -12,9 +12,10 @@ namespace Valltools.formulaire
 {
     public partial class MenuRandom : Form
     {
-        public MenuRandom()
+        public MenuRandom(string url)
         {
             InitializeComponent();
+            Text = url;
         }
 
         private void btnGenerate_Click(object sender, EventArgs e)

@@ -20,15 +20,13 @@ namespace Valltools
 
         private void btnMap_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("WIP : Map");
-            MenuMap menuMap = new MenuMap();
+            MenuMap menuMap = new MenuMap(Text + "/Map");
             menuMap.ShowDialog();
         }
 
         private void btnAgent_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("WIP : Agent");
-            MenuAgent menuAgent = new MenuAgent();
+            MenuAgent menuAgent = new MenuAgent(Text + "/Agent");
             menuAgent.ShowDialog();
         }
     }

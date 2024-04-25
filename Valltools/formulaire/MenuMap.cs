@@ -12,19 +12,22 @@ namespace Valltools.formulaire
 {
     public partial class MenuMap : Form
     {
-        public MenuMap()
+        public MenuMap(string url)
         {
             InitializeComponent();
+            Text = url;
         }
 
         private void btnRanked_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("WIP : Ranked Map Pool");
+            var menuRandom = new MenuRandom(Text + "/RankedMapPool");
+            menuRandom.ShowDialog();
         }
 
         private void btnAllMap_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("WIP : All Map Pool");
+            var menuRandom = new MenuRandom(Text + "/AllMapPool");
+            menuRandom.ShowDialog();
         }
 
         private void btnFilteredMap_Click(object sender, EventArgs e)
