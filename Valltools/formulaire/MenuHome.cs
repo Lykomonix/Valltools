@@ -19,12 +19,12 @@ namespace Valltools
 
         private void btnMap_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Map");
+            MessageBox.Show("WIP : Map");
         }
 
         private void btnAgent_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Agent");
+            MessageBox.Show("WIP : Agent");
         }
     }
 }

@@ -19,17 +19,17 @@ namespace Valltools.formulaire
 
         private void btnRanked_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("WIP : Ranked Map Pool");
         }
 
         private void btnAll_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("WIP : All Map Pool");
         }
 
         private void btnFilter_Click(object sender, EventArgs e)
         {
-
+            MessageBox.Show("WIP : Filtered Map Pool");
         }
     }
 }
