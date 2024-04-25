@@ -140,6 +140,7 @@
             this.ClientSize = new System.Drawing.Size(942, 493);
             this.Controls.Add(this.tlpMenuAgent);
             this.Name = "MenuAgent";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Valltools/Agent";
             this.tlpMenuAgent.ResumeLayout(false);
             this.ResumeLayout(false);

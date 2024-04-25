@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Valltools.formulaire;
 
 namespace Valltools
 {
@@ -20,11 +21,15 @@ namespace Valltools
         private void btnMap_Click(object sender, EventArgs e)
         {
             MessageBox.Show("WIP : Map");
+            MenuMap menuMap = new MenuMap();
+            menuMap.ShowDialog();
         }
 
         private void btnAgent_Click(object sender, EventArgs e)
         {
             MessageBox.Show("WIP : Agent");
+            MenuAgent menuAgent = new MenuAgent();
+            menuAgent.ShowDialog();
         }
     }
 }
