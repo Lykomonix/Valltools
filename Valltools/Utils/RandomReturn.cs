@@ -6,7 +6,19 @@ using System.Threading.Tasks;
 
 namespace Valltools.Utils
 {
-    internal class Random
+    internal class RandomReturn
     {
+        private string[] ListRandom;
+        public RandomReturn(string[] listRandom)
+        {
+            ListRandom = listRandom;
+        }
+
+        public string getOne()
+        {
+            var rnd = new Random();
+            int num = rnd.Next(ListRandom.Length);
+            return ListRandom[num];
+        }
     }
 }
