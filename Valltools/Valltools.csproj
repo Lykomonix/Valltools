@@ -64,6 +64,12 @@
     <Compile Include="formulaire\MenuMap.Designer.cs">
       <DependentUpon>MenuMap.cs</DependentUpon>
     </Compile>
+    <Compile Include="formulaire\MenuRandom.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formulaire\MenuRandom.Designer.cs">
+      <DependentUpon>MenuRandom.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="formulaire\MenuAgent.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="formulaire\MenuMap.resx">
       <DependentUpon>MenuMap.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formulaire\MenuRandom.resx">
+      <DependentUpon>MenuRandom.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

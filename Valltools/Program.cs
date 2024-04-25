@@ -17,9 +17,10 @@ namespace Valltools
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MenuHome());
+            //Application.Run(new MenuHome());
             //Application.Run(new MenuMap());
             //Application.Run(new MenuAgent());
+            Application.Run(new MenuRandom());
         }
     }
 }
